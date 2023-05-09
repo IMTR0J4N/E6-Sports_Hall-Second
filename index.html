@@ -25,8 +25,8 @@
       </h1>
   </header>
   <main>
-    <div class="main--wrapper">
     <section class="main--section">
+      <div class="main--wrapper">
       <h2 class="title">
         <span>Réserver votre place pour le</span>
         <span>Prochain cours</span>
@@ -120,6 +120,53 @@
           </tbody>
         </table>
       </div>
+      </div>
+    </section>
+    <section class="form--section">
+      <div class="form--section--wrapper">
+        <h2 class="title">
+          <span>Pour valider votre réservation,</span>
+          <span>compléter ce formulaire</span>
+        </h2>
+        <form>
+          <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label for="prénom">Votre prénom :</label>
+            <input type="text" id="prénom">
+            <label for="nom">Votre nom :</label>
+            <input type="text" id="nom">
+            <label for="mail">Votre mail :</label>
+            <input type="text" id="mail">
+          </fieldset>
+          <fieldset>
+            <legend>Quelles sont les raisons de votre venue ?</legend>
+            <label for="detente">Besoin de me détendre</label>
+            <input type="checkbox" id="detente">
+            <label for="medical">Mon médecin m'a conseillé de venir</label>
+            <input type="checkbox" id="medical">
+            <label for="amis">Je veux tester avec des amis</label>
+            <input type="checkbox" id="amis">
+          </fieldset>
+          <fieldset>
+            <legend>Voulez-vous souscrire à notre programme de fidélité ?</legend>
+            <label for="oui">Oui</label>
+            <input type="radio" id="oui">
+            <label for="non">Non</label>
+            <input type="radio" id="non">
+          </fieldset>
+          <fieldset>
+            <legend>Comment avez-vous connu Ila Yoga ?</legend>
+            <select>
+              <option value="select" checked disabled>-- Choisissez une option --</option>
+              <option value="Par internet">Par internet</option>
+              <option value="Par les proches">Par les proches</option>
+              <option value="Par les réseaux">Par les réseaux</option>
+              <option value="Par la télévision / pub">Par la télévision / pub</option>
+            </select>
+          </fieldset>
+          <input type="submit">
+        </form>
+        </div>
     </section>
   </main>
   <footer>

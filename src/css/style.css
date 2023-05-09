@@ -175,6 +175,71 @@ td a {
   justify-content: center;
   height: 100%;
   width: 100%;
+  text-decoration: none;
+  color: var(--white--color);
+}
+
+.form--section-wrapper {
+    padding: 1% 5% 5% 5%;
+}
+
+.form--section {
+    background: var(--bg--color);
+    background: var(--bg--gradient);
+    height: 1000px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 360px;
+    height: 200px;
+    gap: 50px;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-color: var(--orange--color);
+    width: 75%;
+}
+
+legend {
+    margin: auto;
+    color: var(--white--color);
+    font-family: var(--text--font);
+    font-size: var(--nav_font--size);
+}
+
+label {
+    color: var(--white--color);
+    font-family: var(--text--font);
+}
+
+input {
+    margin-left: 5px;
+    margin-right: 50px;
+    background: none;
+    border: none;
+    border-bottom: var(--orange--color) 1px solid;
+}
+
+input[type="submit"] {
+    background-color: var(--orange--color);
+    color: var(--white--color);
+    padding: 10px 40px;
+    font-size: var(--default_font--size);
+}
+
+select {
+    height: 40px;
+    width: 90%;
+    font-family: var(--text--font);
 }
 
 .footer--wrapper {
