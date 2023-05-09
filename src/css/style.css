@@ -227,6 +227,14 @@ input {
     background: none;
     border: none;
     border-bottom: var(--orange--color) 1px solid;
+    color: var(--white--color);
+    font-family: var(--text--font);
+}
+
+input:focus-visible {
+    color: var(--white--color);
+    outline: none;
+    border-bottom: var(--orange--color) 1px solid;
 }
 
 input[type="submit"] {
